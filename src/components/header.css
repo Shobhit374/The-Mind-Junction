@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.header{
+    margin-top: 12%;
+}
+
+.banner{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    max-width: 600px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 20px;
+    padding: 25px 25px;
+    font-size: 25px;
+}
+
+.banner p:first-child{
+    margin-bottom: 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.banner p:nth-child(2){
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 900;
+}
+.banner p:last-child{
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+}
